@@ -1,0 +1,144 @@
+::-webkit-scrollbar {
+	display:none;
+	}
+	
+body {
+	font-family:monospace,-apple-system,BlinkMacSystemFont,Apple SD Gothic Neo,sans-serif;
+	font-size:14px;
+	}
+	
+a {
+	text-decoration: none;
+	color:#FFFFFF;
+	}
+	
+.bigbox {
+	width:100%;
+	max-width:420px;
+	margin:0 auto;
+	border:0;
+	border-top: solid 3px silver;
+	}
+
+.bigboxtd {
+	background-color:#C2C2C2;
+	}
+
+.bixboxtd1 {
+	width:100%;
+	max-width:418px;
+	border:1px solid #DFDFDF;
+	border-top:none;
+	text-align:center;
+	}
+
+.bixboxh1 {
+	text-align:center;
+	font-size:26px;
+	}
+
+.middlebox {
+	width:100%;
+	max-width:410px;
+	margin:0 1px 0 1px;
+	text-align:center;
+	}
+
+.middleboxdiv {
+	margin:0 0 20px 0;
+	text-align:left;
+	}
+
+.smallbox {
+	width:100%;
+	table-layout:fixed;
+	border-collapse:collapse;
+	border-spacing:0;
+	color:#444444;
+	}
+
+.mainbar {
+	padding:3px;
+	background:#C2C2C2;
+	border:1px solid #C2C2C2;
+	text-align:center;
+	}
+
+.valueinfo {
+	padding:5px;
+	background:#E0E0E0;
+	border:1px solid silver;
+	text-align:center;
+	}
+
+.value {
+	padding:5px;
+	border:1px solid silver;
+	text-align:center;
+	}
+
+.emphasis {
+	background:#FFA8A8 !important;
+	}
+
+.button {
+	all:unset;
+	cursor:pointer;
+	}
+	
+@media (prefers-color-scheme: dark) {
+
+body {
+	background:#000000 !important;
+	}
+
+.bigbox {
+	border-top: solid 3px #404040 !important;
+	}
+
+.bigboxtd {
+	background-color:#424242 !important;
+	}
+
+.bixboxtd1 {
+	border:1px solid #404040 !important;
+	}
+
+.bixboxh1 {
+	color:#FFFFFF !important;
+	}
+	
+.smallbox {
+	color:#444444 !important;
+	}
+
+.mainbar {
+	border:1px solid #404040 !important;
+	background:#424242 !important;
+	color:#FFFFFF !important;
+	}
+
+.valueinfo {
+	border:1px solid #404040 !important;
+	background:#5C5C5C !important;
+	color:#FFFFFF !important;
+	}
+
+.value {
+	border:1px solid #404040 !important;
+	background:#757575;
+	color:#FFFFFF !important;
+	}
+
+.emphasis {
+	background:#FFA8A8 !important;
+	}
+
+p {
+	color:#FFFFFF !important;
+	}
+	
+a {
+	color:#FFFFFF !important;
+	}
+}
